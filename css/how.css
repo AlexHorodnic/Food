@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    color:#e67e22;
+}
+.c1{
+    max-width: 100%;
+}
+.row1 li{
+    display: inline;
+
+}
+.row1{
+    background-image: linear-gradient(rgba(87, 42, 0, 0.767),rgba(0, 0, 0, 0.6)), url(../img/background.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 200px;
+}
+.download{
+    margin-bottom: 50px;
+}
+.title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #e67e22;
+}
+.phone{
+    width: 200px;
+    float: right;
+    margin-right: 100px;
+}
+.instructions{
+    font-size: 20px;
+    padding-right: 200px;
+    text-align: justify;
+}
+.instructions li{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.step{
+    padding: 10px 20px;
+    display: inline;
+    color: #e67e22;
+    font-size: 30px;
+    border: 1px solid #e67e22;
+    border-radius: 200px;
+}
+.row6{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footermenu div{
+    margin-left: 20px;
+    display: inline;
+}
+.socialmedia .fab{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 620px), (max-width: 992px){
+    .logo{
+        margin-bottom: 20px;
+    }
+    .title{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .phone{
+        width: 150px;
+        float: none;
+        margin-right: 0;
+    }
+    .row2{
+        text-align: center;
+
+    }
+    .instructions{
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .step{
+        padding: 10px 15px;
+        display: inline;
+        color: #e67e22;
+        font-size: 20px;
+        border: 1px solid #e67e22;
+        border-radius: 200px;
+    }
+    .copyright{
+        padding-top: 20px;
+    }
+    .socialmedia .fab{
+        padding-top: 20px;
+    }
+}

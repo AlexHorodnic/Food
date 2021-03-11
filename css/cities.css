@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a:hover{
+    color:#e67e22;
+}
+.c1{
+    max-width: 100%;
+}
+.row1 li{
+    display: inline;
+
+}
+.row1{
+    background-image: linear-gradient(rgba(87, 42, 0, 0.767),rgba(0, 0, 0, 0.6)), url(../img/background.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 200px;
+}
+.row2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e67e22;
+}
+.row2 h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+ul i{
+    color: #e67e22;
+}
+.row3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h2, ul i{
+    padding-left: 10px;
+}
+.row4{
+    color:white;
+}
+.container-fluid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.747),rgba(0, 0, 0, 0.747)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row4 h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-bottom: 1px solid #e67e22;
+    margin-bottom: 30px;
+}
+.row4 p{
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.row4 img{
+    width: 60px;
+    border-radius: 200px;
+    margin-left:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.row6{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footermenu div{
+    margin-left: 20px;
+    display: inline;
+}
+.socialmedia .fab{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 620px), (max-width: 992px){
+
+    .logo{
+        margin-bottom: 20px;
+    }
+    .row3 .customcol{
+        margin: 0;
+        padding: 0;
+    }
+    .row3{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .copyright{
+        padding-top: 20px;
+    }
+    .socialmedia .fab{
+        padding-top: 20px;
+    }
+}
