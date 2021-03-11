@@ -1,5 +1,4 @@
-# Food
-Food | Restaurant and Food Delivery
+# Food | Restaurant and Food Delivery
 
  HTML CSS BOOTSTRAP
  
